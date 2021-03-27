@@ -8,4 +8,17 @@
         android:background="@android:color/darker_gray"
         tools:context=".MainActivity">
 
+    <com.khair.customview.PieChartView
+            android:id="@+id/pcv_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            app:title="Title"
+            app:pieBorderSize="8dp"
+            app:pieBorderColor="@android:color/white"
+            app:isDrawValues="true"
+            app:valuesTextSize="30sp"
+            app:valuesTextColor="@android:color/black"
+            app:isOrdered="true"
+    />
 </RelativeLayout>
